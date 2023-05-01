@@ -29,7 +29,7 @@
         list1.next = mergeTwoLists(list1.next, list2); //! If list 1 current value lower than list 2 current value
         return list1;
     } else {
-        list2.next = mergeTwoLists(list1, list2.next); //! If list 2 current value lower than list 1 current value
+        list2.next = mergeTwoLists(list1, list2.next); //! If list 2 current value lower than list 1 current value OR same
         return list2;
     }
 };
