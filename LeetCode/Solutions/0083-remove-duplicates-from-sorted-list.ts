@@ -10,7 +10,7 @@
  * }
  */
 
-import { ListNode } from './utils/ListNode';
+import { ListNode } from '../utils/ListNode';
 
 function deleteDuplicates(head: ListNode | null): ListNode | null {
 	let now = head;

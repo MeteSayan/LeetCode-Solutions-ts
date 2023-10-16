@@ -10,7 +10,7 @@
  * }
  */
 
-import { ListNode } from './utils/ListNode';
+import { ListNode } from '../utils/ListNode';
 
 const addTwoNumbers = (
 	l1: ListNode | null,

@@ -10,7 +10,7 @@
  * }
  */
 
-import { ListNode } from './utils/ListNode';
+import { ListNode } from '../utils/ListNode';
 
 /**
  * We should use recursive function for this problem.

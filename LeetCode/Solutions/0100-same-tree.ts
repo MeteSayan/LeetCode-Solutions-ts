@@ -12,17 +12,15 @@
  * }
  */
 
-import { TreeNode } from './utils/TreeNode';
+import { TreeNode } from '../utils/TreeNode';
 
-function inorderTraversal(root: TreeNode | null): number[] {
-	const result: number[] = [];
-	function traverse(root: TreeNode | null): number[] {
-		if (root) {
-			traverse(root.left);
-			result.push(root.val);
-			traverse(root.right);
-		}
-		return result;
-	}
-	return traverse(root);
+function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
+	if (!p && !q) return true;
+	if (!p || !q) return false;
+
+	return (
+		p?.val === q?.val &&
+		isSameTree(p?.left, q?.left) &&
+		isSameTree(p?.right, q.right)
+	);
 }
