@@ -1,9 +1,9 @@
 function addDigits(num: number): number {
 	let newNumber = 999;
-    let digits = num.toString().split('');
+	let digits = num.toString().split('');
 	while (newNumber >= 10) {
 		newNumber = sumNums(digits);
-        if(newNumber >= 10) digits = newNumber.toString().split('');
+		if (newNumber >= 10) digits = newNumber.toString().split('');
 	}
 	return newNumber;
 }
