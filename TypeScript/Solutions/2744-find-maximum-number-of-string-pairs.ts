@@ -23,3 +23,5 @@ function reverseStr(str: string) {
 	}
 	return reverseString;
 }
+
+export {};
