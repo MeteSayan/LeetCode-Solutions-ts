@@ -1,4 +1,4 @@
-# problem-solutions
+# Leetcode Solutions With Typescript
 
 <p align="center">
  <a href="https://github.com/metesayan/problem-solutions/stargazers"><img src="https://img.shields.io/github/stars/metesayan/problem-solutions?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
