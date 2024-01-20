@@ -4,7 +4,7 @@ YZ = 25*(26^1) + 26*(26^0)
 XYZ = 24*(26^2) + 25*(26^1) + 26*(26^0)
 
 ASCII Table for chars
-https://alpharithms.s3.amazonaws.com/assets/img/ascii-chart/ascii-table-alpharithms-scaled.jpg
+https://ascii.cl/
 */
 
 function titleToNumber(columnTitle: string): number {

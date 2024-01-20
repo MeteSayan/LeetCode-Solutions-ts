@@ -1,5 +1,5 @@
 // ASCII Table for chars
-// https://alpharithms.s3.amazonaws.com/assets/img/ascii-chart/ascii-table-alpharithms-scaled.jpg
+// https://ascii.cl/
 
 function cellsInRange(s: string): string[] {
 	const colStart = s.charCodeAt(0);
